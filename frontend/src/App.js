@@ -24,6 +24,9 @@ const router = createBrowserRouter([
 ])
 
 function App() {
+  useEffect(()=>{
+    console.log("Test")
+  },[])
   return (
     <div>
       <Header></Header>
